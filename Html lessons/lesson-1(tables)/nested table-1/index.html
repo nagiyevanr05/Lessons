@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested tables example</title>
+  </head>
+  <body>
+    <table border="2">
+      <caption>
+        <b>Nested tables</b>
+      </caption>
+      <tr>
+        <th colspan="1">Header of table 1</th>
+        <th colspan="1">Header of table 2</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px">
+          <table border="">
+            <tr>
+              <th>1st header of nested table 1</th>
+              <th>2nd header of nested table1</th>
+            </tr>
+            <tr>
+              <td>1st cell of nested table</td>
+              <td>2nd cell of nested table</td>
+            </tr>
+            <tr>
+              <td>3rd cell of nested table</td>
+              <td>4th cell of nested table</td>
+            </tr>
+          </table>
+        </td>
+        <td style="padding: 10px">
+          <table border="">
+            <tr>
+              <th>1st header of nested table 2</th>
+              <th>2nd header of nested table 2</th>
+            </tr>
+            <tr>
+              <td>1st cell of nested table</td>
+              <td>2nd cell of nested table</td>
+            </tr>
+            <tr>
+              <td>3rd cell of nested table</td>
+              <td>4th cell of nested table</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
