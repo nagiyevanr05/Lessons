@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms with table in html</title>
+  </head>
+  <body>
+    <form action="">
+      <table border="">
+        <thead>
+          <tr>
+            <th colspan="2">Job Application (web)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div><label for="fname">First Name</label></div>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="Enter First Name"
+                required
+              />
+            </td>
+
+            <td>
+              <div><label for="lastname">Last Name</label></div>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Enter Last Name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><label for="email">Email</label></div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+                required
+              />
+            </td>
+            <td>
+              <div><label for="job-role">Job Role</label></div>
+              <select name="job-role" id="job-role">
+                <option value="">Select Job role</option>
+                <option value="doctor">doctor</option>
+                <option value="teacher">teacher</option>
+                <option value="programmer">programmer</option>
+                <option value="other">other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div><label for="address">Address</label></div>
+              <textarea
+                name="address"
+                id="address"
+                placeholder="Enter address "
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><label for="city">City</label></div>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Enter City Name "
+                required
+              />
+            </td>
+            <td>
+              <div><label for="pincode">Pincode</label></div>
+              <input type="password" name="pincode" id="pincode" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><label for="date">Date</label></div>
+              <input type="date" name="date" id="date" />
+            </td>
+            <td>
+              <div><label for="cv">Upload Your CV</label></div>
+              <input
+                type="file"
+                name="cv"
+                id="cv"
+                required
+                accept="application/pdf"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center" colspan="2">
+              <input type="submit" value="Apply now" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
