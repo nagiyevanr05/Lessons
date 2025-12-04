@@ -1,0 +1,101 @@
+.header{
+    background-color: rgb(172, 209, 118);
+   display: flex;
+   align-items: center;
+   gap: 200px;
+   height: 200px;
+   justify-content: center;
+}
+
+.header h1{
+    color: aliceblue;
+}
+.navbar{
+  
+   background-color: green;
+
+   
+}
+.navbar .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+ nav .navbar ul li {
+    list-style: none;
+       list-style: none;
+    text-decoration: none;
+   
+   
+}
+.navbar  a {
+     color: aliceblue;
+}
+a{
+   color: aliceblue; 
+}
+.top .title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.top .title h1{
+    color: red;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+.line-2{
+    width: 1000px;
+    height: 5px;
+  background-color: green;
+}
+.bottom-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.bottom-title h1{
+    color: red;
+}
+.bottom-title h2{
+    color: green;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ .right-footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left-footer h4{
+    color:aliceblue
+}
+.footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
