@@ -1,0 +1,31 @@
+table,th {
+    border-collapse: collapse;
+    border: 2px solid black
+}
+
+th {
+    height: 50px;
+   
+}
+
+tr {
+    height: 40px;
+    color: rgb(55, 33, 76);
+}
+
+tbody td {
+    text-align: center;
+    border-style: dashed;
+}
+
+th {
+    background-color: rgb(112, 188, 235);
+}
+
+tr:nth-child(2) {
+    background-color: rgb(112, 188, 235);
+}
+
+tr:nth-last-of-type(2) {
+    background-color: rgb(112, 188, 235);
+}

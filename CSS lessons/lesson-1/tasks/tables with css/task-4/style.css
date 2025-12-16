@@ -1,0 +1,34 @@
+table,th,td {
+    border-collapse: collapse;
+    border: 2px solid rgb(220, 137, 137)
+}
+
+th {
+    height: 50px;
+     width: 90px;
+}
+
+tbody tr {
+    height: 50px;
+    color: rgb(97, 97, 185);
+   
+}
+
+tbody td {
+    text-align: center;
+    border-style: dashed;
+}
+
+th {
+    background-color:rgb(236, 100, 123)
+}
+
+tr:nth-child(4) {
+    background-color: pink;
+}
+tr:nth-child(6) {
+  background-color: pink;
+}
+tr:nth-child(8){
+    background-color: pink;
+}

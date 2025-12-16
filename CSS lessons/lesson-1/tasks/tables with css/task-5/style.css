@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(218, 129, 220);
+   
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+/* margin: 70px; */
+  }
+
+th{
+    border: 3px solid black
+   
+
+}
+td{
+    border: 3px solid black
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+th{
+    color: rgb(6, 51, 58);
+}
+td{
+    color: rgb(74, 43, 0);
+   
+}
