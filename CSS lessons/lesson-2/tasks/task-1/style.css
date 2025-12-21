@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(9, 112, 112);
+}
+
+
+img{
+    width: 100px;
+    height: 110px;
+}
+p::first-line{
+    color: yellow;
+}

@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 300px;
+    height: 250px;
+    background-color:hsl(221, 15%, 25%);
+    border-radius: 8px;
+    margin: auto;
+}
+
+h4{
+    color: white;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.first{
+    font-size: 30px;
+    color: white;
+    padding-left: 5%;
+}
+.second{
+    font-size: 18px;
+    color: white;
+    padding-left: 5%;
+}
+.third{
+    background-color:#e67e22 ;
+    color: rgb(7, 7, 7);
+    width: 200px;
+    height:30px ;
+    border: none;
+    margin-left: 15%;
+    border-radius: 4px;
+}
+
+.forth{
+    background-color: white;
+    color: #e67e22;
+    width: 200px;
+    height:30px ;
+    border: none;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 4px;
+}
+
