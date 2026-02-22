@@ -1,0 +1,123 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    background-color: azure;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo i{
+   color: blue;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.searchbar input{
+    width: 1000px;
+    height: 40px;
+    padding: 10px;
+   border-radius: 100px;
+   border: none;
+   
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dashboard-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.sidebar {
+
+  width: 25%;
+   max-height: 100vh;
+  background-color: #2c3154;
+  color: white;
+  overflow-y: scroll; 
+  
+  
+}
+
+
+.menu{
+
+    background-color: rgb(255, 0, 200);
+    height: 200px;
+   
+
+   
+}
+.components{
+    background-color: rgb(0, 170, 255);
+    height: 400px;
+  
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 31% 31% 31%; 
+    justify-content: space-between; 
+    row-gap: 20px; 
+    padding: 20px;
+     width: 75%;
+  background-color: #f4f7fe;
+}
+
+.card {
+ 
+    width: 100%; 
+  background-color: rgb(43, 160, 121);
+    border-radius: 10px;
+    padding: 15px;
+ color: white;
+}
+
+@media (max-width: 1100px) {
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 15%; 
+  }
+  .main-content {
+    width: 75%;
+       grid-template-columns: 1fr;
+  }
+ 
+}
+
+@media (max-width: 492px) {
+  .sidebar {
+    display: none; 
+  }
+  .main-content {
+    width: 100%; 
+  }
+}
